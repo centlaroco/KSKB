@@ -74,7 +74,6 @@
     .navnav {
         display: block;
         padding: 35px;
-        margin-right: 10px;
         cursor: pointer;
     }
     .sidenav {
@@ -111,9 +110,6 @@
     .nav-itembar:hover{
         text-decoration: none;
     }
-    .main-logo {
-        padding-left: 20px;
-    }
 
     .sidebar-active:checked ~ .sidenav {
         display: flex;
@@ -121,18 +117,12 @@
     .close-btn {
         display: block;
         align-self: flex-end;
-        cursor: pointer;        
         background: none;
-        border: none;
         font-size: 24px;
         cursor: pointer;
         padding: 10px;
         margin-bottom: 20px;
-        margin-right: 10px;
-        border-radius: 60px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
-    
     .close-btn svg {
         display: block;
     }
@@ -155,13 +145,6 @@
     .sidebar-active:checked ~ .blurrykamam-nav {
         opacity: 1;
         visibility: visible;
-    }
-    .sidenav {
-        z-index: 10;
-    }
-    .nav-bar {
-        z-index: 20;
-        position: relative;
     }
 
 }
